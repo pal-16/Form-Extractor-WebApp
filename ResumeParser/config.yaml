@@ -1,0 +1,93 @@
+resume_directory: ../data/input/example_resumes
+summary_output_directory: ../data/output
+data_schema_dir: ../data/schema
+
+extractors:
+ title:
+  - [teacher,tutor]
+  - [developer, software developer, software engineer, dev]
+  - trader
+  - [marketing manager,marketing head ,promotion manager,marketing executives,sales executive]
+  - [data analyst]
+  - [interface developer,ui developer,front end developer]
+  - [mobile developer,android developer,ios developer]
+  - [cloud engineer, aws solutions architect]
+  - [blockchain developer]
+  - [legal manager]
+  - [web developer,web designer, websit developer]
+
+ platforms:
+  - linux
+  - windows
+  - [mac, macOS]
+
+ databases:
+  - mysql
+  - [postgress, postgresql]
+  - oracle
+  - graphql
+
+ programming languages:
+  - [java, javaee]
+  - c
+  - c++
+  - c#
+  - .net
+  - matlab
+  - r
+  - python
+  - vhdl
+  - php
+  - javascript
+  - html
+  - css
+  - go
+  - sql
+
+
+ machine learning:
+  - [sklearn, scikit-learn, sk-learn]
+  - [tensorflow, tf, tensor-flow]
+  - keras
+  - theano
+  - pytorch
+  - h20
+  - [deep learning,neural networks,convolutional neural networks]
+  - [data science,data analysis]
+  - [natural language processing, nlp]
+
+
+ universities:
+  - [TU Delft, TUDelft, Delft University of Technology]
+  - [Univerity of Twente, UTwente]
+  - [University of Amsterdam, UvA]
+  - [Vrije Univesriteit, VU University, VU Amsterdam, VU]
+  - MIT
+  - [Veermata Jijabai Technological Institute,VJTI]
+
+ languages:
+  - dutch
+  - english
+  - german
+  - spanish
+  - [chinese, mandarin]
+  - japanese
+  - portuguese
+
+ hobbies:
+  - [swimming, swim]
+  - [soccer, football]
+  - [painting,art]
+  - [reading,avid reader]
+  - [singing,music]
+  - dancing
+  - [debating,elocution,]
+  - [writing,writer,literary artist]
+  - [photograpy,photographer]
+
+ open-source:
+  - github
+  - bitbucket
+  - gitlab
+  - sourceforge
+  - gitkraken
